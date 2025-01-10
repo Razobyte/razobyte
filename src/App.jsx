@@ -65,6 +65,7 @@ const HealthCareItSolutions =lazy(()=>import('./Components/industry/healthcareit
 const ItConsultingServices =lazy(()=>import('./Components/industry/itConsulting/Itconsulting'))
 const ProductEnginner =lazy(()=>import('./Components/industry/productEnginner/ProductEnginner'))
 const PerformanceMarketing =lazy(()=>import('./Components/industry/performanceMarketing/PerforMance'))
+
 export default function App() {
   const { pathname } = useLocation();
   const [currentSEO, setCurrentSEO] = useState(null);
