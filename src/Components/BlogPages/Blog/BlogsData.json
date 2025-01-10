@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "title": "10 Tips to Improve Your Website SEO",
+        "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/11/shutterstock_1049564585-960.jpg",
+        "category": "Health",
+        "author": "Darrell Etherington",
+        "authorPic": "author1.jpg",
+        "published_date": "October 4, 2023",
+        "reading_time": "8 minutes",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat cum nam ipsum voluptate. Nobis?",
+        "tags": ["Biotech", "Health"]
+    },
+    {
+        "id": 2,
+        "title": "Mobile Website v/s responsive website",
+        "image": "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "category": "Fintech",
+        "author": "Mary Ann Azevedo",
+        "authorPic": "author1.jpg",
+        "published_date": "2023-10-01",
+        "reading_time": "5 minutes",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat cum nam ipsum voluptate. Nobis?",
+        "tags": ["Fintech", "Writing"]
+    },
+    {
+        "id": 3,
+        "title": "How to Make Your E-commerce Website",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/025/284/015/small/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg",
+        "category": "Startups",
+        "author": "Christine Hall",
+        "authorPic": "author1.jpg",
+        "published_date": "2023-10-01",
+        "reading_time": "5 minutes",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat cum nam ipsum voluptate. Nobis?",
+        "tags": ["Startups", "Writing"]
+    },
+    {
+        "id": 4,
+        "title": "Figma v/s Adobe XD",
+        "image": "https://img.freepik.com/premium-vector/mobile-app-ui-kit-with-different-gui-layout-including-log-create-account-sign-up-social-media-notification-screens_1302-23023.jpg",
+        "author": "Christine Hall",
+        "authorPic": "author1.jpg",
+        "published_date": "2023-10-01",
+        "reading_time": "5 minutes",
+        "content": "Today is news marks a turnaround for a company that is had its share of ups and downs over the past year.",
+        "tags": ["Blogging", "Writing"]
+    },
+    {
+        "id": 5,
+        "title": "Why e-commerce Brands are failing ",
+        "image": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg",
+        "category": "Interacting",
+        "author": "Kyle Wiggers",
+        "authorPic": "author1.jpg",
+        "published_date": "2023-10-01",
+        "reading_time": "5 minutes",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat cum nam ipsum voluptate. Nobis?",
+        "tags": ["AI", "Writing"]
+    },
+    {
+        "id": 6,
+        "title": "How Social Media is changing ",
+        "image": "https://static.wixstatic.com/media/nsplsh_a8044c42fb524b39b99632150f24494d~mv2.jpg/v1/fill/w_1000,h_603,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_a8044c42fb524b39b99632150f24494d~mv2.jpg",
+        "category": "Interacting",
+        "author": "Ron Miller",
+        "authorPic": "author1.jpg",
+        "published_date": "2023-10-01",
+        "reading_time": "5 minutes",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat cum nam ipsum voluptate. Nobis?",
+        "tags": ["Security", "Writing"]
+    }
+    
+   
+    
+]

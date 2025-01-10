@@ -1,0 +1,209 @@
+/* Kite animations for 6 kites */
+.kite-1 {
+    background: url('/Image/kite2.png') no-repeat center/contain;
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    top: 5%;
+    left: 10%;
+    opacity: 0.2;
+    animation: floatKite1 15s infinite ease-in-out;
+  }  
+  .kite-2 {
+    background: url('/Image/kite2.png') no-repeat center/contain;
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    top: 20%;
+    right: 15%;
+    opacity: 0.15;
+    animation: floatKite2 20s infinite ease-in-out;
+  }
+  
+  .kite-3 {
+    background: url('/Image/kite2.png') no-repeat center/contain;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    top: 40%;
+    left: 25%;
+    opacity: 0.25;
+    animation: floatKite3 18s infinite ease-in-out;
+  }
+  
+  .kite-4 {
+    background: url('/Image/kite2.png') no-repeat center/contain;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    top: 60%;
+    right: 20%;
+    opacity: 0.18;
+    animation: floatKite4 22s infinite ease-in-out;
+  }
+  
+  .kite-5 {
+    background: url('/Image/kite2.png') no-repeat center/contain;
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    top: 75%;
+    left: 15%;
+    opacity: 0.22;
+    animation: floatKite5 17s infinite ease-in-out;
+  }
+  
+  .kite-6 {
+    background: url('/Image/kite2.png') no-repeat center/contain;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 85%;
+    right: 30%;
+    opacity: 0.16;
+    animation: floatKite6 19s infinite ease-in-out;
+  }
+  
+  @keyframes floatKite1 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(100px, -50px) rotate(10deg); }
+    50% { transform: translate(200px, 0) rotate(-5deg); }
+    75% { transform: translate(100px, 50px) rotate(5deg); }
+  }
+  
+  @keyframes floatKite2 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(-150px, 100px) rotate(-15deg); }
+    50% { transform: translate(-300px, 0) rotate(10deg); }
+    75% { transform: translate(-150px, -100px) rotate(-5deg); }
+  }
+  
+  @keyframes floatKite3 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(200px, 150px) rotate(15deg); }
+    50% { transform: translate(400px, 0) rotate(-10deg); }
+    75% { transform: translate(200px, -150px) rotate(5deg); }
+  }
+  
+  @keyframes floatKite4 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(-120px, -80px) rotate(-8deg); }
+    50% { transform: translate(-240px, 0) rotate(12deg); }
+    75% { transform: translate(-120px, 80px) rotate(-4deg); }
+  }
+  
+  @keyframes floatKite5 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(180px, -120px) rotate(18deg); }
+    50% { transform: translate(360px, 0) rotate(-15deg); }
+    75% { transform: translate(180px, 120px) rotate(8deg); }
+  }
+  
+  @keyframes floatKite6 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(-90px, 60px) rotate(-20deg); }
+    50% { transform: translate(-180px, 0) rotate(15deg); }
+    75% { transform: translate(-90px, -60px) rotate(-10deg); }
+  }
+  /* Custom slow shake animation */
+
+  /* Shake Animation */
+@keyframes shake-slow {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-9px); /* Shake left */
+    }
+    50% {
+      transform: translateX(8px);  /* Shake right */
+    }
+    75% {
+      transform: translateX(-7px); /* Shake left */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Zoom In Animation */
+  @keyframes zoom-in {
+    0% {
+      transform: scale(1);  /* Normal size */
+    }
+    50% {
+      transform: scale(1.2); /* Zoom in */
+    }
+    100% {
+      transform: scale(1);  /* Return to normal size */
+    }
+  }
+  
+  /* Combined Shake and Zoom Animation Sequence */
+  @keyframes shake-then-zoom-then-shake {
+    0% {
+      transform: translateY(0); /* Start at normal position */
+    }
+    10%{
+      transform: rotate(180deg);
+    }
+    33% {
+      transform: translateY(-9px); /* Shake left */
+    }
+    50% {
+      transform: translateY(8px); /* Shake right */
+    }
+    66% {
+      transform: scale(1.1); /* Zoom in */
+    }
+    86% {
+        transform: scale(0.9); /* Zoom in */
+      }
+    100% {
+      transform: translateY(0); /* End with shake back to center */
+    }
+  }
+  .slow-shake-zoom {
+    animation: shake-then-zoom-then-shake 6s ease-in-out infinite;
+  }
+/* WalkingAnimation.css */
+.zoom-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.zoom-animation {
+  animation: zoomInOutRotate 120s ease-in-out infinite; /* Very slow, infinite animation */
+  transition: transform 1s ease-in-out; /* Smooth transition for hover */
+}
+.zoom-animation:hover {
+  transform: scale(1.05) rotate(2deg); /* Slight zoom-in and rotation on hover */
+}
+
+@keyframes zoomInOutRotate {
+  0% {
+    transform: scale(1) rotate(0deg); /* Normal size */
+  }
+  5% {
+    transform: scale(1.01) rotate(0deg); /* Very slight zoom-in */
+  }
+  10% {
+    transform: scale(1.02) rotate(0deg); /* Slight zoom-in */
+  }
+  25% {
+    transform: scale(1.03) rotate(0deg); /* Gradual zoom-in */
+  }
+  50% {
+    transform: scale(1.05) rotate(0deg); /* Max zoom-in */
+  }
+  75% {
+    transform: scale(1.03) rotate(0deg); /* Slight zoom-out */
+  }
+  90% {
+    transform: scale(1.02) rotate(0deg); /* Almost back to normal */
+  }
+  100% {
+    transform: scale(1) rotate(0deg); /* Back to normal size and rotation */
+  }
+}

@@ -1,0 +1,239 @@
+.bgSection {
+    background-color: #3B7FBF;
+}
+
+.card-imgPort {
+    width: 400px;
+    height: 340px;
+}
+
+.cardmainPortfolioSec {
+    background-color: rgba(240, 248, 255, 0.74);
+    box-shadow: 0 15px 20px 15px rgb(154, 170, 207, 25%) !important;
+    border: 0px !important;
+}
+
+.cardmainPortfolioSec .card-imgPort {
+    position: relative;
+    overflow: hidden;
+}
+
+.cardmainPortfolioSec .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.658);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+
+.cardmainPortfolioSec:hover .overlay {
+    opacity: 1;
+}
+
+.card-imgPort:hover {
+    animation: both !important;
+    cursor: pointer;
+}
+
+.cardmainPortfolioSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    transition: 0.3s ease-in;
+
+
+}
+
+.cardmainPortfolioSec:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px 5px 10px rgba(0, 0, 0, 0.041) !important;
+    animation: both
+}
+
+
+.allportfoliobutton {
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+
+.Ruby-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Ruby-buttons>.btn {}
+
+.Ruby-buttons>.btn:nth-child(1) {
+    border-left: 0px !important;
+    color: gray;
+
+}
+
+.Ruby-buttons>.btn:nth-child(1):hover {
+    border-left: 0px !important;
+
+}
+
+.Ruby-buttons>.btn:hover {
+    color: #3b7fbf !important;
+    cursor: pointer;
+    border-left: 1px solid #3b7fbf !important;
+}
+
+.allportfoliobutton>button {
+    border-radius: 0px !important;
+    font-size: .85rem !important;
+    cursor: pointer;
+    font-weight: 500 !important;
+    overflow: hidden !important;
+    box-shadow: none !important;
+    border: none !important;
+    background-color: rgba(128, 128, 128, 0) !important;
+    color: #5E5E5E !important;
+    border-radius: 0px !important;
+    text-transform: uppercase;
+    border-left: 0.5px solid rgba(128, 128, 128, 0.226) !important;
+
+}
+
+.allportfoliobutton>button:hover {
+    padding-bottom: 5px !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1.5px !important;
+    width: fit-content !important;
+    border-bottom-color: #3B7FBF !important;
+}
+
+.read-more-btn {
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-items: center;
+    width: 120px !important;
+    height: 100%important;
+    background: none !important;
+    border: 1px solid #3B7FBF !important;
+    font-weight: 550 !important;
+    outline: none !important;
+    font-size: .85rem;
+    cursor: pointer;
+    letter-spacing: 2px !important;
+    box-shadow: 5px 5px 5px 5px (0, 0, 0, 0.9) !important;
+    overflow: hidden !important;
+    z-index: 1 !important;
+    box-shadow: none !important;
+    color: #3B7FBF !important;
+    z-index: 1 !important;
+    border-radius: 5px !important;
+
+
+
+}
+
+.read-more-btn:nth-child(1) {
+    background: transparent !important;
+}
+
+.read-more-btn::before {
+    content: "";
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 0 !important;
+    height: 100% !important;
+    background: #3B7FBF !important;
+    z-index: -1 !Important;
+    transition: .7s !important;
+    border-radius: 5px !important;
+}
+
+.read-more-btn:hover::before {
+    width: 100% !important;
+}
+
+.read-more-btn:hover {
+    color: white !important;
+}
+
+.explore-btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px !important;
+    height: 100%important;
+    background: none !important;
+    border: 1px solid white !important;
+    outline: none !important;
+    font-size: .85rem;
+    cursor: pointer;
+    font-weight: 550 !important;
+    letter-spacing: 2px !important;
+    box-shadow: 5px 5px 5px 5px (0, 0, 0, 0.9) !important;
+    overflow: hidden !important;
+    z-index: 1 !important;
+    box-shadow: none !important;
+    color: white !important;
+    border-radius: 5px !important;
+
+
+}
+
+.explore-btn :nth-child(1) {
+    background: transparent !important;
+}
+
+.explore-btn::before {
+    content: "";
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 0 !important;
+    height: 100% !important;
+    background: white !important;
+    z-index: -1 !Important;
+    transition: .7s !important;
+    border-radius: 5px !important;
+}
+
+.explore-btn:hover::before {
+    width: 100% !important;
+}
+
+.explore-btn:hover {
+    color: #3B7FBF !important;
+
+}
+
+@media screen and (max-width:786px) {
+    .card-imgPort {
+        width: 200px;
+        height: 200px;
+    }
+    .card-imgPort>img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:20px;
+     
+    }
+
+}

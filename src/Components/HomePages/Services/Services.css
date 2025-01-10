@@ -1,0 +1,259 @@
+.card-clip{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 550px !important;
+    height: 400px !important;
+    clip-path: inset(0 0 0 0) !important;
+    transition: transform 0.3s;
+    /* border-right: 1px solid white!important; */
+}
+
+.card-clip::before {
+    display:flex!important;
+    justify-content:center!important;
+    align-items:center!important;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 550px !important;
+    height:400px !important;
+    background: linear-gradient(45deg, rgba(128, 128, 128, 0.493), #063b6d21) !important;
+    z-index: -1;
+    clip-path: inset(0 0 0 0) !important;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.card-clip:hover {
+    transform: scale(1.05);
+}
+
+.card-clip:hover::before {
+    opacity: 1;
+}
+
+.card-clip h1 {
+    position: relative;
+    z-index: 1;
+    padding-top:9rem;
+
+}
+
+.card-clip :hover h1 {
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+
+}
+
+
+.card-clip p {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s transform 0.5s ease-in-out;
+    z-index: 1;
+    top:150px !important;
+    right: 5%;
+
+}
+.card-clip:hover p {
+    opacity: 1;
+    transform: translateY(0, -50%);
+}
+
+.card-clip h4 {
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    top:-120px;
+    transform: translate(-0%, -60%);
+    right: 5%;
+}
+
+.card-clip:hover h4 {
+    opacity: 1;
+    position: relative;
+    transform: translateY(0, -50%);
+    right: 5px!important;
+
+}
+
+
+
+.explore-btn-services{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px!important;
+    border: 1px solid #3B7FBF!important;
+    height: 100%important;
+    background: #3B7FBF!important;
+    outline: none!important;
+    font-size: .85rem;
+    cursor: pointer;
+    font-weight: 550!important;
+    letter-spacing: 2px!important;
+   box-shadow:5px 5px 5px  5px (0,0,0,0.9)!important;
+   overflow: hidden!important;
+   z-index: 1!important;
+   box-shadow:none !important;
+   color:#3B7FBF!important;
+   border-radius: 5px!important;
+}
+.explore-btn-services:nth-child(1){
+background:transparent !important;
+}
+.explore-btn-services::before{
+content: "";
+position: absolute!important;
+top: 0;
+left: 0;
+width: 0!important;
+height: 100%!important;
+background:#3B7FBF!important;
+z-index: -1!Important;
+transition: .7s!important;
+border-radius: 5px!important;
+}
+.explore-btn-services:hover::before{
+width: 100%!important;
+}
+.explore-btn-services:hover{
+    color: white!important;
+
+}
+@media screen and (min-width:768px) and (max-width:1250px) {
+    .card-clip {
+        height:350px !important;
+        width: 250px !important;
+    }
+
+    .card-clip:hover {
+        transform: none !important;
+    }
+
+    .card-clip h4 {
+     
+        top:40px
+    }
+
+    .card-clip p {
+        position: absolute;
+        top:50px;
+
+        
+    }
+
+    .card-clip h1 {
+        padding:8rem;
+
+        
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 1000px) {
+    .card-clip {
+        height:200px !important;
+        width: 350px !important;
+
+    }
+
+    .card-clip:hover {
+        transform: none !important;
+        
+    }
+
+    .card-clip h4 {
+   
+        
+        top:20px
+    }
+
+    .card-clip p {
+        top:30px !important;
+  
+        
+    }
+
+    .card-clip h1 {
+        padding-top:3rem;
+ 
+        
+
+
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:576px) {
+    .card-clip {
+        height:150px !important;
+        width:650px !important;
+    }
+
+    .card-clip:hover {
+        transform: none !important;
+    }
+
+    .card-clip h4 {
+
+        
+        top:20px
+    }
+
+    .card-clip p {
+        top: 35px !important;
+     
+        letter-spacing: 0px !important;
+    }
+
+    .card-clip h1 {
+        margin-top:3rem;
+
+
+
+    }
+
+}
+
+@media screen and (max-width: 576px) and (min-width:300px) {
+    .card-clip {
+        height:250px !important;
+        width:380px !important;
+
+    }
+
+    .card-clip:hover {
+        transform: none !important;
+    }
+
+    .card-clip h4 {
+  
+        top:40px
+    }
+    .card-clip p {
+        top: 50px !important;
+     
+        letter-spacing: 0px !important;
+    }
+
+    .card-clip h1 {
+        padding-top:5rem;
+  
+
+
+    }
+    .card-clip{
+        margin-top:20px;
+        padding: 20px;
+    }
+}

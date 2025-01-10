@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "category": "Programming Languages",
+        "languages": [
+            {
+                "name": "Php",
+                "image": "https://cdn-icons-png.flaticon.com/512/5968/5968532.png",
+                "link": "services/development/php-development"
+            },
+            {
+                "name": "React",
+                "image": "https://static-00.iconduck.com/assets.00/react-icon-2048x1793-eq4a5voh.png",
+                "link": "/services/development/reactjs-development"
+            },
+            {
+                "name": "Html & Css",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png",
+                "link": "/services/development/html-css-website"
+            },
+            {
+                "name": "CodeIgniter",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrvxi8gi8Vuq6gnFAPY6dlLrieZ9iOGvFfA&s",
+                "link": "services/development/codeigniter-website-development"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Frontend",
+        "languages": [
+            {
+                "name": "React",
+                "image": "https://static-00.iconduck.com/assets.00/react-icon-2048x1793-eq4a5voh.png",
+                "link": "/services/development/reactjs-development"
+            },
+            {
+                "name": "Html & Css",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png",
+                "link": "/services/development/html-css-website"
+            },
+            {
+                "name": "Angular",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdkiG4aat7Bty4xJMxYAW16J4EqBiMbX3AA&s",
+                "link": "https://angular.io"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Backend",
+        "languages": [
+            {
+                "name": "CodeIgniter",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrvxi8gi8Vuq6gnFAPY6dlLrieZ9iOGvFfA&s",
+                "link": "services/development/codeigniter-website-development"
+            },
+            {
+                "name": "Php",
+                "image": "https://cdn-icons-png.flaticon.com/512/5968/5968532.png",
+                "link": "services/development/php-development"
+            },
+            {
+                "name": "Laravel",
+                "link": "/services/development/laravel-devlopment",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7cu4UCId-vauNTVF6nimgUikKOY7_q3eZw&s"
+            }
+        ]
+    }
+]

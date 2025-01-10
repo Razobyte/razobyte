@@ -1,0 +1,75 @@
+/* 2ndtext */
+.sec2-txt{
+    text-align: center;
+    color: #5E5E5E;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px 10px rgba(154, 170, 207, 25%) ;
+}
+.sec2-txt:hover{
+    color: #ffff;
+    background-color: #3B7FBF;
+}
+/* 3rdtext */
+.sec3-txt{
+    text-align: center;
+    color: #5E5E5E;
+    box-shadow: 0px 15px 40px 10px rgba(154, 170, 207, 20%) ;
+    border-radius: 10px;
+}
+.sec3-txt:hover{
+    background-color: #3B7FBF;
+    color: white;
+}
+
+/* Accordino */
+
+.accordion-button {
+    background: transparent !important;
+    outline: none !important;
+    border: 1px solid #3b7fbf46 !important;
+     color: #5e5e5e !important;
+
+    
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+    background-color: #3B7FBF !important;
+    color: white !important; /* Change text color on focus */
+}
+
+.main-accrodinstartItem {
+    border-radius: 0px !important;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0) !important;
+    background-color: #ffff !important;
+    border: 1px solid rgba(128, 128, 128, 0.164) !important;
+    background-color: #5e5e5e02 !important;
+}
+
+.accordion-header {
+    background-color: white !important;
+    border: 0px !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/* //lastsection */
+.CarLastText{
+    text-align: center;
+    color: #5E5E5E;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.allimages img{
+    height:40vh!important;
+    width: 100%!important;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.068);
+    border-radius: 10px;
+
+}
+@media screen and (max-width:768px) {
+    .allimages img{
+        height:15vh !important;
+       
+    }
+}

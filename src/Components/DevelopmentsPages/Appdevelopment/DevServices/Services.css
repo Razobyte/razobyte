@@ -1,0 +1,33 @@
+
+.devundercontentdiv{
+    border-radius: 10px;
+    background-color: #3B7FBF;
+    width: 380px;
+    height: 150px;
+    gap:20px;
+    padding: 10px;
+    transition: 0.3ms ease-in-out;
+    margin-bottom: 20px;
+}
+.devundercontentdiv:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+.img-devdivser{
+    background-color: white;
+    border-radius:50%; 
+    padding:20px;
+}
+@media screen and (max-width:786px) {
+    .devundercontentdiv{
+        width: 350px;
+        height: 130px;
+        gap:10px;
+        padding: 10px;
+        transition: 0.3ms ease-in-out;
+        margin-bottom: 20px;
+    }
+    
+
+    
+}

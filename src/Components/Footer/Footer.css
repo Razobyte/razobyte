@@ -1,0 +1,280 @@
+
+
+.bgsection{
+    background-color: #3B7FBF;
+
+}
+.fsbtn{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #3B7FBF;
+    border: 1px solid white;
+    border-radius:5px;
+   font-weight: 600px;
+    padding: 5px;
+}
+.fsbtn:hover{
+    outline: none;
+    border: none;
+    color: #3B7FBF;
+    background-color: white;
+    border: 1px solid white;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+
+.Companytext2{
+    position: relative;
+    text-transform: uppercase;
+
+}
+.Companytext2::after{
+    background-color:rgba(255, 255, 255, 0.493);
+    display: block;
+    width:76.5%;
+    height: 1px;
+    content: "";
+    position: absolute;
+    margin-right: 75px;
+    right: 0px;
+    top: 65%;
+    z-index: 1;
+    text-align: center;
+}
+.Companytext3{
+    position: relative;
+    text-transform: uppercase;
+}
+.Companytext3::after{
+    background-color:rgba(255, 255, 255, 0.493);
+    display: block;
+    width: 80.5%;
+    height: 1px;
+    content: "";
+    position: absolute;
+    margin-right: 75px;
+    right: 0px;
+    top: 65%;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.603);
+   margin-top: 20px;
+
+
+}
+.link{
+    justify-content: start;
+    align-items:self-start;
+    gap:60px
+  
+}
+
+.link  {
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    text-transform: capitalize;
+}
+.link :nth-child(n-5):hover {
+    text-decoration:underline;
+    color: rgba(255, 255, 255, 0.603) !important; 
+
+}
+
+.AdresssectionText{
+    justify-content: center;
+    align-items:center;
+    gap:0px
+
+}
+.Secbtn{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #3B7FBF;
+}
+.Secbtn:hover{
+    outline: none;
+    border: none;
+    color:rgba(255, 255, 255, 0.603);
+    text-decoration: underline;
+}
+.icon{
+    cursor: pointer;
+    gap:15px;
+}
+.icon img{
+    width:30px;
+    margin-bottom:10px;
+    margin-top:10px;
+    border-radius: 10%!important;
+    
+ 
+}
+.icon img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease; 
+
+  
+}
+.last{
+    font-size: 14px;
+   
+}
+.Rating {
+    position: relative;
+}
+.Rating p{
+    display: block;
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    margin: 0;
+    color: white;
+}
+.Border{
+    position: relative;
+    border-left: 10px solid rgba(0, 0, 0, 0.473);
+    color:#3b7fbf1c;
+    right:15px;
+}
+.partner{
+    position: relative;
+}
+
+.partner p{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin: 0;
+    color: white;
+}
+.Fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Fb img{
+    width:160px;
+    height: 50px;
+    border-radius:3px; 
+    top: 10%; 
+    margin-left:20px;  
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .link{
+        justify-content: center;
+        align-items: center;
+        gap:30px
+      
+    }
+ .Companytext2::after{
+    width:72%;
+
+
+    }
+
+.Companytext3::after{
+   width:78%;
+   }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1000px) { 
+    .Companytext::after{
+        width:70%;
+
+    }
+    .link{
+        justify-content:start;
+        align-items:self-start;
+        gap:10px
+      
+    }
+   
+ .Companytext2::after{
+    width:65%;
+
+
+    }
+
+.Companytext3::after{
+   width:70%;
+   }
+
+}
+@media  screen and (max-width:768px)  {
+    .link {
+        justify-content:start;
+        align-items: self-start;
+        gap:7px
+      
+    }
+    
+ .Companytext2::after{
+    display: none;
+ 
+    }
+
+.Companytext3::after{
+    display: none;
+   }
+} 
+@media screen and (max-width:768px) {
+    .logobrand>img{
+        width:80px !important;
+    }
+    .ipad{
+        display: none !important;
+    }
+   
+    
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .logobrand>img{
+        width:80px !important;
+    }
+    .ipad{
+        display: none !important;
+    }
+
+}
+
+/* Footer.css */
+.custom-accordion {
+    background: transparent;
+  }
+  
+  .custom-accordion .accordion-item {
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .custom-accordion .accordion-button {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .custom-accordion .accordion-button:not(.collapsed) {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+    
+
+
+

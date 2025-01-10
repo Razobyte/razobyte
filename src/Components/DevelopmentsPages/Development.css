@@ -1,0 +1,630 @@
+.bgphp{
+    background: linear-gradient(#4ECEFE,50%,#3B7FBF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgphp2{
+    background: linear-gradient(#3B7FBF,50%,#4ECEFE);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.for-shodow>img{
+    box-shadow: 0px 10px 40px 5px rgba(154, 170, 207, 20%) !important;
+    border-radius: 10px;
+}
+.code-firstdiv-section{
+    box-shadow: 0 15px 40px 10px  rgba(154,170,207,25%) !important;
+    border-radius: 15px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    justify-content: center;
+    width: 300px;
+    height: 250px; 
+}
+.code-firstdiv-section:hover{
+    animation:swing;
+    animation-duration: 1s;
+}
+.CodeIgniter-section{
+    box-shadow: 0 15px 20px 15px rgb(154, 170, 207,25%)!important;
+    padding: 15px 10px ;
+    border-radius:15px;
+    height:230px;
+    transition: 0.3ms ease-in;
+    margin:  20px 0px;
+    color: rgba(94, 94, 94, 0.795);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  
+}.Shopify-section{
+    /* box-shadow: 0 15px 40px 5px rgba(154, 170, 207, 0.25)!important; */
+    padding: 10px 15px ;
+    border-radius:15px;
+    height:400px;
+    transition: 0.3ms ease-in;
+    margin:  20px 0px;
+    color: rgba(94, 94, 94, 0.795);
+    width: 420px !important;
+    display: flex;
+    justify-content: center;
+}
+.Shopify-section>h3{
+    color:  #3b7fbf;
+}
+.Shopify-section:hover{
+    transform: translateY(-5px);
+    background-color: #3b7fbf !important;
+    color: white;
+   
+}
+.Shopify-section:hover >h3{
+    color: white;
+}
+.CodeIgniter-section>h3{
+    color:  #3b7fbf;
+}
+.CodeIgniter-section:hover{
+    transform: translateY(-5px);
+    background-color: #3b7fbf;
+    color: white;
+   
+}
+.CodeIgniter-section:hover >h3{
+    color: white;
+}
+.CodeIgniter-section1{
+    box-shadow: 2px 5px 10px 5px  rgba(0, 0, 0, 0.062);
+    padding: 10px ;
+    border-radius:15px;
+    height:280px;
+    transition: 0.3ms ease-in;
+    justify-content: center;
+    color: rgba(94, 94, 94, 0.795);
+    
+}
+
+.CodeIgniter-section1>h3{
+    color:  #3b7fbf;
+}
+.CodeIgniter-section1:hover{
+    transform: translateY(-5px);
+    background-color: #3b7fbf;
+    color: white;
+   
+}
+.CodeIgniter-section1:hover >h3{
+    color: white;
+}
+.Code-section-3{
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.082);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: white;
+   padding: 10px ;
+   height: 200px ;
+   width: 200px;
+   transition: 3ms ease-in-out;
+}
+.Code-section-3:hover{
+    animation:pulse;
+    animation-duration: 2s;
+   
+}
+@media screen and (max-width:768px) {
+    .CodeIgniter-section{
+        border: 1px solid rgba(128, 128, 128, 0.247) !important;
+        width: 350px;
+        height: 400px;
+
+    }
+    .CodeIgniter-section1{
+        border: 1px solid rgba(128, 128, 128, 0.247) !important;
+        margin: 20px 0px ;
+
+    }
+    .Code-section-3{
+        height: 170px;
+        width: 110px;
+        padding: 20px 30px;
+    }
+    .code-firstdiv-section{
+        box-shadow: 0 15px 40px 10px  rgba(154,170,207,25%) !important;
+        border-radius: 15px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 250px;
+        padding: 10px;
+      
+     
+    }
+    .Shopify-section{
+        height:300px !important;
+        width: 350px !important;
+    }
+    
+
+
+
+    
+}
+
+.html-section1{
+    background-color: white;
+    box-shadow: 5px 10px 5px 10px rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    padding: 20px 15px;
+    width: 500px;
+    height: 280px;
+}
+
+.htmlSection1{
+    box-shadow: 0px 15px 40px 15px rgba(154, 170, 207, 0.171) ;
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+    padding:20px ;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height:200px;
+}
+.html-section2{
+    box-shadow: 5px 10px 5px 10px rgba(0, 0, 0, 0.041);
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px ;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+@media screen and (max-width:786px) {
+    .htmlSection1{
+        width:130px;
+        height: 150px;
+        padding: 20px !important;
+    }
+    .html-section1{
+        width: 330px;
+        height: 150px;
+
+    }
+    
+}
+
+.laravle-section{
+    box-shadow: 0px 5px 25px 5px rgba(0, 0, 0, 0.082);
+    padding: 10px 30px;
+    border-radius:20px;
+    width:100%;
+    border-left:20px solid #3b7fbf;
+   color: rgba(94, 94, 94);
+}
+.laravle-section:hover{
+    background-color: #3b7fbf;
+    border-left:20px solid white;
+    border-radius:20px;
+    color: #ffff;
+}
+.laravle-section2{
+    box-shadow: 0px 5px 25px 5px rgba(0, 0, 0, 0.082);
+    padding: 10px 30px;
+    border-radius:30px;
+    width:100%;
+    background-color: #3b7fbf;
+
+}
+.laravel-section3{
+    box-shadow: 0px 5px 25px 5px rgba(0, 0, 0, 0.082);
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgba(94, 94, 94);
+    width: 250px;
+    height: 220px;
+}
+
+
+.laravel-section3:hover{
+    background-color: #3b7fbf;
+    color: #ffff;
+}
+.laravel-section6{
+    box-shadow: 0px 40px 15px 10px rgb(154, 170, 207,25%);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: white;
+    padding:10px 10px;
+    height: 250px;
+    width: 100%;
+    transition: 0.3ms ease-in-out;
+}
+.laravel-section6:hover{
+    animation: flash; 
+    animation-duration: 2s;
+ 
+
+    
+
+}
+.laravelindicators>div>a>.carousel-control-next-icon{
+    position: absolute;
+    border-radius: 50px!important;
+    border: 2px solid #3b7fbf!important;
+    background-color:#3b7fbf!important; 
+    transform: translateX(50%);
+    padding: 10px; 
+    right: -60px;
+}
+.laravelindicators>div>a>.carousel-control-prev-icon{
+    position: absolute;
+    border-radius: 50px!important;
+    border: 2px solid #3b7fbf!important;
+    background-color:#3b7fbf!important; 
+    padding: 10px;
+    left: -60px;
+
+}
+.laravel-card-section{
+    border: 0px!important;
+    border-radius:0px!important;
+}
+
+.Laravelsection8{
+    box-shadow: 0px 15px 40px 10px rgba(0, 0, 0, 0.082);
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding: 20px;
+    height: 170px;
+    width: 200px;
+}
+.laravelsection9{
+    background: linear-gradient(to bottom, rgba(78,207,255), rgba(59,127,191));
+
+}
+.laravelSection10{
+    box-shadow: 0px 5px 25px 5px rgba(0, 0, 0, 0.082);
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px ;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+.laravelSection12{
+    background: linear-gradient(to bottom, #3b7fbf 50%, white 50%);
+}
+.laravelSection13{
+    box-shadow: 0px 15px 40px 10px rgb(154, 170, 207,25%);
+    border-radius:10px;
+    align-items: center;
+    padding: 20px 15px ;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 480px !important;
+    width: 400px !important;
+    
+
+}
+@media screen  and  (max-width:786px){
+    .Laravelsection8{
+        width: 120px;
+        height: 150px;
+    }
+  
+    .laravelindicators>div>a>.carousel-control-next-icon{
+        display: none;
+
+    }
+    .laravelindicators>div>a>.carousel-control-prev-icon{
+        display: none;
+
+    }
+    .laravelSection13{
+       height:230px !important ;
+       width: 300px !important;
+      
+    }
+    
+    
+}
+.phpImage{
+    box-shadow: 2px 5px 2px 5px rgba(0, 0, 0, 0.057);
+    border-radius:10px;
+    width:100px;
+}
+.bgphp{
+    background: linear-gradient(#4ECEFE,50%,#3B7FBF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-prev, 
+.swiper-button-next {
+  display: none !important;
+}
+
+
+.php-version-div{
+    background-color: white;
+    box-shadow: 0 15px 40px 10px rgb(154, 170, 207,20%);
+    width: 300px;
+    padding: 15px;
+    border-radius:5px;
+    height: 345px;
+    border-radius: 10px;
+}
+
+.php-section-services{
+    background-color: white;
+    box-shadow: 15px 15px 40px 0 rgba(154, 170, 207, 0.171)!important;
+    border-radius: 10px;
+    padding: 20px 15px;
+    width:335px;
+    height: 327px;
+
+}
+
+.OpenKart>h3{
+    color:  #3b7fbf;
+}
+.OpenKart:hover{
+    transform: translateY(-5px);
+    background-color: #3b7fbf;
+    color: white;
+   
+}
+.OpenKart:hover>h3{
+    color: white;
+}
+.php-section-services2{
+    background-color: white;
+    box-shadow: 15px 15px 40px 0 rgba(154, 170, 207, 0.171)!important;
+    border-radius: 10px;
+    padding: 0px 0px ;
+    width:330px;
+    height:320px;
+    text-align: left;
+
+}
+.php-section1{
+    box-shadow: 0px 15px 40px 15px rgb(154, 170, 207,25%);
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height:300px;
+    transition: 0.3ms ease-in;
+    width: 300px;
+    
+}
+.php-section1:hover{
+    transform:  translateY(-5px);
+
+
+}
+/* .btn-php-get-in-touch{
+    border: none!important;
+    
+    background-color: white !important;
+    box-shadow: none !important;
+    outline: none !important;
+    font-weight:  600 !important;
+    color: #3B7FBF !important;
+    border-radius: 0px !important;
+    
+
+
+}
+.btn-php-get-in-touch:hover{
+    color: white !important;
+    background-color: #3B7FBF !important;
+
+
+
+
+} */
+.phpindicators>a>.carousel-control-next-icon{
+    border-radius: 50px !important;
+    border: 1px solid white !important;
+    padding: 10px;
+
+    
+}
+.phpindicators>a>.carousel-control-prev-icon{
+    border-radius: 50px !important;
+    border: 1px solid white !important;
+    padding:10px;
+}
+.php-version-div:hover{
+    animation:backOutLeft;
+    animation-duration:2s;
+    transition: 0.3ms ease-in-out;
+    
+}
+
+
+ .ani:hover{
+    animation:backOutLeft;
+    animation-duration:2s;
+    transition: 0.3ms ease-in-out;
+
+ }
+@media screen  and (max-width:786px) {
+    .php-version-div{
+        background-color: white;
+        box-shadow: 0 15px 40px 10px rgb(154, 170, 207,20%);
+        padding: 15px ;
+        border-radius: 5px;
+        width:300px;
+        height:305px;
+    }
+    .php-section1{
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+}
+.btn-hire-developers{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: none !important;
+    outline:  none !important;
+    box-shadow:  none !important;
+    background-color: white !important;
+    color: #3b7fbf !important;
+    gap: 5px !important;
+    border-radius: 0px!important;
+    font-weight: 550 !important;
+    padding: 10px !important;
+   
+
+}
+.btn-hire-developers:hover{
+    background-color: #3b7fbf!important;
+    color: white !important;
+}
+.Ruby-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Ruby-buttons>.btn{
+    background-color: white!important;
+    color: gray;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-left: 1px solid rgba(128, 128, 128, 0.301) !important;
+    border-radius:  0px !important;
+    font-weight: 550 !important;
+    font-size: .85rem !important;
+}
+.Ruby-buttons >.btn:nth-child(1){
+    border-left:  0px !important;
+    color: gray;
+
+}
+.Ruby-buttons>.btn:nth-child(1):hover{
+    border-left:  0px !important;
+
+}
+.Ruby-buttons>.btn:hover{
+    color: #3b7fbf !important;
+    cursor: pointer;
+    border-left:  1px solid #3b7fbf !important;
+}
+.Ruby-section1{
+    box-shadow: 2px 4px 2px 4px rgba(0, 0, 0, 0.048);
+    border-radius: 10px;
+    width: 140px;
+    padding: 10px;
+}
+.Rubyindicators>a>.carousel-control-next-icon{
+    background-color: #3b7fbf !important;
+    border-radius: 50px !important;
+    padding: 5px !important;
+    position: absolute;
+    
+    left:-180px !important;
+}
+.Rubyindicators>a>.carousel-control-prev-icon{
+    background-color: #3b7fbf !important;
+    border-radius: 50px !important;
+    padding:5px !important;
+    position: absolute;
+    right: -180px;
+}
+@media screen  and (max-width:786px) {
+    .Rubyindicators>a>.carousel-control-prev-icon{
+      display: none !important;
+
+
+    }
+    .Rubyindicators>a>.carousel-control-next-icon{
+      display: none !important;
+       
+    }
+    
+}
+
+.android-btn{
+    outline: none !important;
+    border: none !important;
+    box-shadow:  none !important;
+    background-color: #3b7fbf !important;
+    color: white !important;
+    font-weight: 550 !important;
+    border-radius: 5px !important;
+    border: 1px solid white !important;
+
+}
+.And-section1{
+    box-shadow: 3px 5px 3px 5px rgba(0, 0, 0, 0.055);
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 200px;
+    padding: 20px;
+    min-width:230px;
+    transition: 0.3ms ease-in;
+}
+.android-btn:hover{
+    color: #3b7fbf !important;
+    background-color: white !important;
+    border: 1px solid #5e5e5e91!important;
+} 
+@media screen and (max-width:786px) {
+    .And-section1{
+        border-radius:5px;
+        align-items: center; 
+        height: 160px;
+        padding: 10px;
+        min-width:110px;
+        max-width: 140px;
+    }
+    
+}

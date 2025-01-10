@@ -1,0 +1,111 @@
+
+.buttons-app-maintenance .btn-app-maintenance {
+    border: none !important;
+    text-align: left;
+    background-color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.313) !important; /* Light gray border */
+}
+.btn-active{
+    color: #3b7fbf !important;
+    box-shadow: none !important;
+}
+.buttons-app-maintenance .btn-app-maintenance.btn-active {
+    border-bottom: 2px solid #007bff !important; /* Solid blue border for active state */
+}
+.bullet{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: #5e5e5ecb;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .Heading {
+        font-size: 30px;
+    }
+
+    .overlay-text {
+        padding: 5px;
+    }
+
+    .heading2 {
+        font-size: 28px;
+    }
+
+    .heading2text {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .client {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .buttons {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .services{
+        gap: 4rem;
+    }
+    
+    .section{
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Heading {
+        font-size: 24px;
+    }
+
+    .overlay-text {
+        font-size: 14px;
+    }
+
+    .heading2 {
+        font-size: 22px;
+    }
+
+    .heading2text {
+        font-size: 14px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .buttons {
+        /* padding-top: 10px; */
+        padding-left: 20px;
+        width: 100px;
+    }
+    .services{
+        gap: 5rem;
+    }
+    .section{
+        width: 330px;
+        height: auto;
+    }
+    .bullet{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        color: #5e5e5ecb;
+        font-size: 16px;
+        font-weight: 500;
+    
+    }
+}

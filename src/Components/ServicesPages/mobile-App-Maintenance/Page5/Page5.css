@@ -1,0 +1,83 @@
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    flex-direction: row;
+}
+.formfill{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    gap: 10px;
+    /* padding-right: 20px; */
+}
+.form-text{
+    padding-top: 20px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+.fill{
+    height: 35px;
+    border-radius: 5px;
+    /* border: none; */
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 0;
+    padding-left: 1rem;
+    width: 205px;
+}
+.message{
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius:0 ;
+    width: 420px;
+    padding-left: 1rem;
+}
+.formpara{
+    font-size: 30px;
+    font-weight: 500;
+}
+.formpara2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.formrow{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+input:focus{
+    
+    outline: none;
+    border: 1.5px solid grey;
+}
+@media (max-width:768px){
+    .form{
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .form-text{
+        /* width: 360px; */
+        /* display: none; */
+        width: 340px;
+        padding-bottom: 0px;
+    }
+    .fill{
+        /* display: none; */
+        width: 150px;
+    }
+    .formfill{
+
+        width: 200px;
+    }
+    .message{
+        width: 310px;
+    }
+}

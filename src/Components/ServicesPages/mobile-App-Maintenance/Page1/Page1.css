@@ -1,0 +1,54 @@
+.overlay-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensures the text appears above the image */
+}
+.gradient-overlay-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-overlay-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  z-index: 1; /* Ensures the gradient is over the image */
+}
+
+.gradient-overlay-container img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  z-index: 2; /* Ensures the text appears over both the image and gradient */
+  text-align: center;
+  color: white;
+}
+@media (max-width: 768px) {
+  .overlay-text {
+    top: 60%; /* Adjust based on image size */
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-text {
+    top: 55%; /* Further adjust for smaller screens */
+  }
+}

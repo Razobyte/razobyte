@@ -1,0 +1,115 @@
+.navmaindiv{
+  z-index: 1000!important;
+  position:sticky !important;
+  top: 0;
+} 
+.navlinkmenutitle{
+  color: #5e5e5e!important;
+  font-weight:500!important;
+  font-size: 20px!important;
+}
+.for-gap ul {
+gap: 20px;
+}
+.navlinkmenutitle:hover {
+  color:#3B7FBF !important;
+  text-decoration: underline;
+  text-underline-offset:10px;
+  text-decoration-thickness:2.5px;  
+}
+.navlinkmenutitle:hover>a{
+  display: block!important;
+}
+.btnmain {
+position: relative !important;
+display: inline-block !important;
+background-color: #3b7fbf !important;
+outline: none !important;
+box-shadow: none !important;
+overflow: hidden !important; /* Ensure overflow is hidden to contain the ::before pseudo-element */
+z-index: 1 !important; 
+}
+.btnmain:hover {
+color: white !important; /* Change text color on hover */
+background-color: #000!important;
+}
+
+
+
+.navbar-nav .dropdown-menu{
+  border-radius: 0px!important;
+}
+
+.dropdown-item:active{
+  background-color:white!important;
+  color: #000!important;
+}
+.dropDownMwnuItems{
+  position: relative!important;
+}
+.dropDownMwnuItems>div{
+  position: absolute!important;
+  top: -11px!important;
+  left: 157px!important;
+  border-left: 0px!important;
+}
+.dropDownMwnuItems>a::after{
+  display: none!important;
+}
+/* Navbar.css */
+
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.mega-menu a {
+  display: block;
+  padding: 8px 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.mega-menu a:hover {
+  background-color: #f4f4f4;
+}
+.inside-dev-shado-des{
+  box-shadow: 2px 4px 2px 5px rgba(0, 0, 0, 0.048);
+}
+ @media screen  and (min-width:1024px)  and (max-width:1400px){
+  .navlinkmenutitle{
+    color: #5e5e5e!important;
+    font-weight:500!important;
+    font-size: 20px!important;
+}
+.for-gap ul{
+
+  gap: 10px;
+}
+ }
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+

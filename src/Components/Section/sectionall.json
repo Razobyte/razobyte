@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "full_name": "10 Tips to Improve Your Website SEO",
+        "IMAGE": "https://img.freepik.com/premium-photo/seo-search-engine-optimization-modish-ecommerce-online-retail-business_31965-48590.jpg?",
+        "title": "Starting a business is a hassle, Govt. compliances, taxation, hiring, team management, and whatnot. To top all this you need a website that your potential clients can access to know about your products and services.",
+        "Category": "IT industry"
+    },
+    {
+        "id": 2,
+        "full_name": "Mobile Website v/s responsive website",
+        "IMAGE": "https://img.freepik.com/premium-photo/teen-girl-with-laptop-wearing-jeans-sitting-floor-concrete-wall-room-with-web-design-sketch-concrete-wall-bitcoin_780608-16854.jpg",
+        "title": "In today's digital age, where smartphones have become an inseparable part of our lives, having a mobile-friendly website is not just an option but a necessity for businesses.However, the dilemma often lies in deciding you. ",
+        "Category": "IT industry"
+    },
+    {
+        "id": 3,
+        "full_name": "How to Make Your E-commerce Website",
+        "IMAGE": "https://img.freepik.com/premium-photo/woman-shopping-online-internet-marketplace-browsing-sale-items-modern-lifestyle-use-credit-card-online-payment-from-wallet-protected-by-crucial-cyber-security-software_31965-251474.jpg",
+        "title": "In the modern era  e-commerce sites play an important role in caterto diverse  consumers neeeds and preferences. However, not all online stores succeed in engaging their audience and driving conversions.  ",
+        "Category": "web-desgin"
+    },
+    {
+        "id": 4,
+        "full_name": "Figma v/s Adobe XD",
+        "IMAGE": "https://img.freepik.com/premium-vector/mobile-app-ui-kit-with-different-gui-layout-including-log-create-account-sign-up-social-media-notification-screens_1302-23023.jpg",
+        "title": "In the realm of UI/UX design, choosing the right tool can make all the difference in crafting exceptional digital experiences. Two leading contenders in this space are Figma and Adobe XD.allowing multiple team members to work on the same design project.",
+        "Category": "web-desgin"
+    },
+    {
+        "id": 5,
+        "full_name": "Why e-commerce Brands are failing",
+        "IMAGE": "https://img.freepik.com/premium-photo/online-shopping-trolley-laptop-wooden-table_1003277-11308.jpg",
+        "title": "In the competitive world of e-commerce, success isn't assured. Despite potential growth, many brands face hurdles leading to failure. With effort and planning, obstacles can pave the way for sustainable success.",
+        "Category": "UI-desgin"
+    },
+    {
+        "id": 6,
+        "full_name": "How Social Media is changing ",
+        "IMAGE": "https://img.freepik.com/free-vector/3d-social-media-icons-background_52683-28863.jpg",
+        "title": " In the  world of social media, staying ahead of the curve is essential for brands  to connect with their audience. From trends to  influencers, social media is constantly changing, presenting  challenges and opportunities.",
+        "Category": "UI-desgin"
+    }
+]

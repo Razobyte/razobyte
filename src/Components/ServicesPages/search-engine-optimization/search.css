@@ -1,0 +1,99 @@
+.btn1{
+    display: inline-block!important;
+    color: #5E5E5E!important;
+    background-color: #FFFFFF!important;
+    font-weight:550!important;
+    border: none!important;
+    width: 150px!important;
+    height:40px!important;
+    border-radius: 5px!important;
+    border: none!important;
+    outline: none!important;
+   
+    box-shadow: none!important;
+
+}
+.seomainpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    height: 200px;
+    box-shadow: 3px 5px 3px 5px rgba(0, 0, 0, 0.055);
+    border-radius: 10px;
+    padding:20px;
+}
+.btn1:hover{
+    color: #FFFFFF!important;
+    background-color:#3B7FBF!important;
+    border: none!important;
+    width: 150px!important;
+    height:40px!important;
+    border-radius: 5px!important;
+
+}
+.btn2{
+    background-color: #3B7FBF!important;
+    border: none!important;
+    width: 150px !important;
+    height:40px  !important;
+    color: #FFFFFF !important;
+    border-radius: 5px !important;
+    margin-bottom:20px !important;
+    font-weight:550 !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none!important;
+}
+.btn2:hover{
+    background-color: #5E5E5E !important;
+    font-weight:550 !important;
+    box-shadow: none!important;
+}
+.bgsectionSeo{
+    background-color:rgb(95, 168, 237,20%);
+
+}
+.seoIndicators>a>.carousel-control-next-icon{
+    border-radius: 50px !important;
+    border: 1px solid #3B7FBF !important;
+    padding: 10px;
+    background-color: #3B7FBF !important;
+    position: absolute;
+    right: -60px;
+   
+
+    
+}
+.seoIndicators>a>.carousel-control-prev-icon{
+    border-radius: 50px !important;
+    border: 1px solid  #3B7FBF !important;
+    padding:10px;
+    background-color: #3B7FBF !important;
+    position: absolute;
+    left:-60px;
+    
+    
+}
+@media screen and (max-width:786px) {
+    .seoIndicators>a>.carousel-control-prev-icon{
+     position: absolute;
+     left: -40px;
+        
+        
+    }
+    .seoIndicators>a>.carousel-control-next-icon{
+      position: absolute;
+      right: -40px;
+        
+        
+    }
+}
+
+
+
+
+
+

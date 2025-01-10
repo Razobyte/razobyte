@@ -1,0 +1,20 @@
+.containerp7 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .box4p7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* width: 100%; */
+    max-width: 340px; 
+    margin-bottom: 0%; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    box-shadow: 0 15px 40px 10px rgb(154, 170, 207, 21%);
+    box-sizing: border-box;
+  }

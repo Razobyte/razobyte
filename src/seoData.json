@@ -1,0 +1,58 @@
+[
+  {
+    "path": "/",
+    "title": "Software Development and IT Consultancy Solutions | Razobyte SoftTech",
+    "keywords": "IT Consulting, IT Consultancy near me, IT Consultancy services,  Software Development",
+    "description": "Discover Razobyte SoftTech's IT consultancy near you for strategic, operational, and technical consulting. With 12 years of experience, we provide IT solutions and software development services"
+  },
+  {
+    "path": "/careers",
+    "title": "Careers at Razobyte | IT & Digital Solutions Company | Join Our Team",
+    "description": "Explore career opportunities at Razobyte, a leading IT and digital solutions company. Join our innovative team and contribute to  projects in technology. Apply today to start your journey with us!"
+  },
+  {
+    "path": "/services/digital-marketing",
+    "title": " Digital Marketing Services | Marketing Agency Near You",
+    "description": "Enhance your online presence with our digital marketing services. As a leading digital marketing company near you, we offer tailored strategies to drive results",
+    "keywords": "Digital Marketing Services, Digital Marketing Agency, Digital Marketing near me, Digital Marketing Company"
+  },
+  {
+    "path": "/services/digital-marketing/performance-marketing",
+    "title": "Performance Marketing Company Services | ROI-Driven Strategies Globally",
+    "description": "Performance marketing services to maximize ROI with Meta Ads, PPC, SEO, and affiliate strategies. Trusted solutions in India and globally for measurable success.",
+    "keywords": "performance marketing, digital marketing, Meta Ads, PPC advertising, affiliate marketing, ROI optimization, online marketing strategies, performance marketing India, global performance marketing, SEM, SEO, social media advertising, conversion rate optimization, Meta Ads strategies, Facebook Ads, Instagram Ads, top marketing agencies, performance marketing services"
+  },
+  {
+    "path": "/services/digital-marketing/seo-search-engine-optimization",
+    "title": "SEO Company – Proven SEO Services for Business Growth",
+    "description": " Expert SEO services and marketing packages from Razobyte SoftTech to grow your business. Since 2015, we’ve helped companies succeed with effective SEO solutions.",
+    "keywords": "seo services, seo marketing, seo company, seo packages, seo services near me"
+  },
+  {
+    "path": "/services/digital-marketing/sem-search-engine-marketing",
+    "title": "Expert SEM & PPC Services for Maximum ROI - Razobyte ",
+    "description": "Drive targeted traffic and boost conversions with Razobyte's expert SEM and PPC services. Our company delivers tailored strategies to maximize your ROI with real-time analytics.",
+    "keywords": "sem services, SEM Agency ,SEM Company, Pay Per Click Services, PPC Services ,search engine marketing Services, SEM Services"
+  },
+  {
+    "path": "/services/digital-marketing/smo/social-media-optimization",
+    "title": "Leading Social Media Optimization Company | Expert SMO Services",
+    "description": "Gain new followers and engage existing ones with our expert SMO services. As a trusted SMO company, we help boost your brand's presence and drive results"
+  },
+  {
+    "path": "/services/digital-marketing/smm/social-media-marketing",
+    "title": "Social Media Marketing Company for Business Growth | Expert SMM Services",
+    "description": "Build a strong social media presence with our expert SMM services. As a trusted SMM company, we help achieve your goals and drive results. Contact us today."
+  },
+  {
+    "path": "/services/digital-marketing/email-marketing",
+    "title": "Email Marketing Services | Effective Campaigns by Razobyte",
+    "description": "Razobyte, a trusted email marketing company, offers services to create impactful strategies, track performance, and deliver measurable results for your email campaigns."
+  },
+  {
+    "path": "/services/design/ui/ux-design",
+    "title": "UI/UX Design and Development Services to Enhance User Experience",
+    "description": "UI/UX design and development services by Razobyte SoftTech boost user experience, drive engagement, and increase conversions with expert UI/UX design solutions",
+    "keywords": "ui ux design services, ui ux development services, ui ux services"
+  }
+]

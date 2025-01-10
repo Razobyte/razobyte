@@ -1,0 +1,50 @@
+.inputfield{
+    box-shadow: none!important;  
+    outline: none!important;  
+    border: 1px solid #3b7fbf52;
+    width: 960px !important;
+    height: 40px !important;
+}
+.radius{
+    border-top-right-radius:15px;
+    border-bottom-right-radius: 15px;
+    height: 40px !important;
+    width: 100px !important;
+}
+.inputfield:focus{
+    border: 1px solid gray!important;
+}
+.card-main-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px!important;
+    cursor: pointer;
+    box-shadow: 0 15px 40px 0 rgb(154, 170, 207,25%)!important;
+    transition: 0.3ms ease-in-out;
+    min-height: 630px !important;
+    max-height: 630px !important;
+    border: 0px !important;
+}
+.card-main-blog:hover{
+    transform: translateY(-2px);
+   
+}
+.title-h4>h4{
+    font-size: 20px;
+    color: rgb(59, 127, 191);
+    font-weight: 600;
+
+}
+
+.card-text-mainblog{
+    font-size: 14px;
+    font-weight: 500;
+}
+@media screen and (max-width:786px) {
+    .card-main-blog{
+        max-height: 550px !important;
+        min-height: 550px !important;
+    }
+    
+}
