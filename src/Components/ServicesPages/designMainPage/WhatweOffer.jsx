@@ -14,11 +14,11 @@ export default function WhatweOffer() {
                     we create experiences that make your brand <br />
                     memorable. Here’s how we can help</p>
 
-                <Col md={12} xs={11} className='d-md-flex justify-content-center align-items-center  '>
+                <Col md={12} xs={11} className='d-md-flex justify-content-center align-items-center gap-20  '>
                     <div className='col-md-6 col-12'>
-                        <img src={bulbimg} alt="bulb-img" className='img-fluid p-0' />
+                        <img src={bulbimg} alt="bulb-img" className='max-w-full h-1/2 p-0' />
                     </div>
-                    <div className="col-md-6 col-12 d-md-block d-none">
+                    <div className="col-md-5 col-12 d-md-block d-none">
                         <div className="div main-boxes">
                             <div className="div1st-box py-1 mb-8 max-w-xs border-white border-2 flex items-center text-center justify-center rounded-s-full">
                                 <h2 className='md:text-2xl text-sm font-bold text-white'>
@@ -53,7 +53,7 @@ export default function WhatweOffer() {
                         </div>
 
                     </div>
-                    <div className="col-md-6 col-12 d-md-none d-block">
+                    <div className="col-md-6 col-12 d-md-none d-block ">
                         <div className="div main-boxes">
                             <div className="div1st-box py-1 md:mb-8 mb-12 max-w-xs border-white border-2 flex items-center text-center justify-center rounded-s-full">
                                 <h2 className='md:text-2xl text-sm font-bold text-white'>

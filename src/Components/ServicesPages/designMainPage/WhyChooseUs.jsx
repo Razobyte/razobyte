@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
             height: '400px',
           }} 
         >
-        <div className="flex items-center relative top-12 lg:left-[272px]  md:left-48 justify-center text-center m-0 p-0 z-10">
+        <div className="flex items-center relative top-12    2xl:left-[44%]  lg:left-[41%] md:left-[41%] justify-center text-center m-0 p-0 z-10">
           <div className="h-px flex-grow bg-[#ffff]  bg-opacity-70   max-w-24"></div>
           <h2 className="px-1 hed2 text-center text-white m-0">
           Why Choose <span className='text-black'>Us?</span>
