@@ -251,12 +251,8 @@ export default function WebsiteDesignDevelopment() {
             buttonLabel="REQUEST A QUOTE" headingform="REQUEST A QUOTE"
             subheadingForm="Let's Discuss Your Goals & Provide a Quote" 
              className="btnmain bg-white text-[#3b7fbf]"/>
-
           </Col>
-
         </Row>
-      
- 
   {/* First Services Section (visible on desktop) */}
   <ServicesSection
     headingservices="Our Other Capabilities"
@@ -266,12 +262,12 @@ export default function WebsiteDesignDevelopment() {
   />
   {/* Contact Section */}
   <Contact />
-
   {/* Second Services Section (visible on mobile only) */}
   <ServicesSection
     headingservices="Our Other Capabilities"
     className="d-md-none d-flex py-4"
     servicesparagraph="Drive Traffic, Engage Audiences, and Boost Conversions"
+    servicesData={services}
   />
         {/* <PerformanceMetrics /> */}
         {/* Case Studies Section */}

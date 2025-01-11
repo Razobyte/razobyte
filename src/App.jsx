@@ -16,6 +16,7 @@ import PrivacyPolicy from "./Components/ContactUsPages/privacyPolicy/PrivacyPoli
 import SEOHelemt from "./SeoHelmet";
 import NotFoundPage from "./Components/ErrorPage";
 import BlogDetailRouter from "./Components/BlogPages/SubBlog/SubBlog";
+import Form from "./Components/form";
 const SearchEngineOptimization =lazy(()=>import('./Components/ServicesPages/search-engine-optimization/Search'))
 const DigitalMarketing = lazy(()=>import("./Components/ServicesPages/digitalMarketing/DigitalMarketing"))
 const Home = lazy(() => import("./Components/HomePages/Home/Home"));

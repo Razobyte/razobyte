@@ -137,7 +137,7 @@ function DesignPage() {
       backgroundImage: `url(${bg})`,
       backgroundPosition: "center",
       backgroundSize: "cover",
-      height: "120px" // Adjust this based on your design
+      height: "184px" // Adjust this based on your design
     }}
   >
     {/* Image */}
@@ -147,13 +147,13 @@ function DesignPage() {
     
     {/* Text */}
     <div className='text-left '>
-      <p className='md:text-3xl sm:text-2xl font-semibold text-base text-white lg:ps-48 sm max-w-2xl'>
+      <p className='md:text-3xl sm:text-2xl font-semibold text-base text-white lg:ps-48 pt-20 sm max-w-2xl'>
         Let’s Create Something Great Together
       </p>
     </div>
     
     {/* Button */}
-    <div className='text-center'>
+    <div className='text-center flex justify-center items-center pt-10'>
       <ModalExample
         buttonLabel="BOOK A FREE SESSION"
         headingform="Book Your Session"
