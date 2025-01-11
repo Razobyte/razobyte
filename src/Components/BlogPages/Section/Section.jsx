@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Row, Card, Button } from 'react-bootstrap';
 import { FaSearch } from "react-icons/fa";
 import sectiondata from './sectionall.json';
 import '../Section/Section.css';
@@ -7,6 +7,8 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Section() {
     const [input, setInput] = useState('');
+    const [currentPage, setCurrentPage] = useState(1);
+    const itemsPerPage = 6;  // Number of items per page
     const navigate = useNavigate();
 
     // Function to convert title to URL-friendly slug
@@ -21,7 +23,7 @@ export default function Section() {
     // Memoized filtering to improve performance
     const filteredData = useMemo(() => {
         if (!input) return sectiondata;
-        
+
         const lowercasedInput = input.toLowerCase();
         return sectiondata.filter(item => 
             item.Category.toLowerCase().includes(lowercasedInput) ||
@@ -30,18 +32,37 @@ export default function Section() {
         );
     }, [input]);
 
+    // Get the current page items
+    const currentItems = useMemo(() => {
+        const indexOfLastItem = currentPage * itemsPerPage;
+        const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+        return filteredData.slice(indexOfFirstItem, indexOfLastItem);
+    }, [currentPage, filteredData]);
+
+    // Handle search
     const handleSearch = () => {
         console.log('Searching for:', input);
     };
 
+    // Handle input change
     const handleChange = (e) => {
         setInput(e.target.value);
     };
 
+    // Handle card click and navigate
     const handleCardClick = (blogTitle) => {
         const slug = createSlug(blogTitle);
         navigate(`/blogmain/${slug}`);
     };
+
+    // Handle page change
+    const handlePageChange = (pageNumber) => {
+        setCurrentPage(pageNumber);
+    };
+
+    // Pagination Logic
+    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+    const paginationNumbers = [...Array(totalPages).keys()].map(i => i + 1);
 
     return (
         <Row className='d-flex justify-content-center align-items-center'>
@@ -67,7 +88,7 @@ export default function Section() {
                 </div>
 
                 <div className='w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-                    {filteredData.map((item) => (
+                    {currentItems.map((item) => (
                         <Card 
                             key={item.id} 
                             className='border-0 shadow-md cursor-pointer hover:shadow-lg transition-shadow duration-300'
@@ -99,6 +120,23 @@ export default function Section() {
                 {filteredData.length === 0 && (
                     <div className='text-center text-gray-500 mt-6'>
                         No results found. Try a different search term.
+                    </div>
+                )}
+
+                {/* Pagination */}
+                {totalPages > 1 && (
+                    <div className='mt-6'>
+                        <div className="pagination flex justify-center items-center gap-2">
+                            {paginationNumbers.map((pageNumber) => (
+                                <Button
+                                    key={pageNumber}
+                                    onClick={() => handlePageChange(pageNumber)}
+                                    className={`pagination-btn ${currentPage === pageNumber ? 'active' : ''}`}
+                                >
+                                    {pageNumber}
+                                </Button>
+                            ))}
+                        </div>
                     </div>
                 )}
             </div>

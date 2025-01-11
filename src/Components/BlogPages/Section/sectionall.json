@@ -10,35 +10,70 @@
         "id": 2,
         "full_name": "Mobile Website v/s responsive website",
         "IMAGE": "https://img.freepik.com/premium-photo/teen-girl-with-laptop-wearing-jeans-sitting-floor-concrete-wall-room-with-web-design-sketch-concrete-wall-bitcoin_780608-16854.jpg",
-        "title": "In today's digital age, where smartphones have become an inseparable part of our lives, having a mobile-friendly website is not just an option but a necessity for businesses.However, the dilemma often lies in deciding you. ",
+        "title": "In today's digital age, where smartphones have become an inseparable part of our lives, having a mobile-friendly website is not just an option but a necessity for businesses. However, the dilemma often lies in deciding you.",
         "Category": "IT industry"
     },
     {
         "id": 3,
         "full_name": "How to Make Your E-commerce Website",
         "IMAGE": "https://img.freepik.com/premium-photo/woman-shopping-online-internet-marketplace-browsing-sale-items-modern-lifestyle-use-credit-card-online-payment-from-wallet-protected-by-crucial-cyber-security-software_31965-251474.jpg",
-        "title": "In the modern era  e-commerce sites play an important role in caterto diverse  consumers neeeds and preferences. However, not all online stores succeed in engaging their audience and driving conversions.  ",
-        "Category": "web-desgin"
+        "title": "In the modern era, e-commerce sites play an important role in catering to diverse consumer needs and preferences. However, not all online stores succeed in engaging their audience and driving conversions.",
+        "Category": "web-design"
     },
     {
         "id": 4,
         "full_name": "Figma v/s Adobe XD",
         "IMAGE": "https://img.freepik.com/premium-vector/mobile-app-ui-kit-with-different-gui-layout-including-log-create-account-sign-up-social-media-notification-screens_1302-23023.jpg",
-        "title": "In the realm of UI/UX design, choosing the right tool can make all the difference in crafting exceptional digital experiences. Two leading contenders in this space are Figma and Adobe XD.allowing multiple team members to work on the same design project.",
-        "Category": "web-desgin"
+        "title": "In the realm of UI/UX design, choosing the right tool can make all the difference in crafting exceptional digital experiences. Two leading contenders in this space are Figma and Adobe XD, allowing multiple team members to work on the same design project.",
+        "Category": "web-design"
     },
     {
         "id": 5,
         "full_name": "Why e-commerce Brands are failing",
         "IMAGE": "https://img.freepik.com/premium-photo/online-shopping-trolley-laptop-wooden-table_1003277-11308.jpg",
         "title": "In the competitive world of e-commerce, success isn't assured. Despite potential growth, many brands face hurdles leading to failure. With effort and planning, obstacles can pave the way for sustainable success.",
-        "Category": "UI-desgin"
+        "Category": "UI-design"
     },
     {
         "id": 6,
         "full_name": "How Social Media is changing",
         "IMAGE": "https://img.freepik.com/free-vector/3d-social-media-icons-background_52683-28863.jpg",
-        "title": " In the  world of social media, staying ahead of the curve is essential for brands  to connect with their audience. From trends to  influencers, social media is constantly changing, presenting  challenges and opportunities.",
-        "Category": "UI-desgin"
+        "title": "In the world of social media, staying ahead of the curve is essential for brands to connect with their audience. From trends to influencers, social media is constantly changing, presenting challenges and opportunities.",
+        "Category": "UI-design"
+    },
+    {
+        "id": 7,
+        "full_name": "AI-Powered Automation",
+        "IMAGE": "/Image/Blog 1.jpg",
+        "title": "Transforming the Future of IT Services",
+        "Category": "Automation"
+    },
+    {
+        "id": 8,
+        "full_name": "The Rise of Edge Computing",
+        "IMAGE": "/Image/Blog 2.jpg",
+        "title": "A Game Changer for Real-Time Data Processing",
+        "Category": "Tech"
+    },
+    {
+        "id": 9,
+        "full_name": "Cybersecurity in 2024",
+        "IMAGE": "/Image/Blog 3.jpg",
+        "title": "The Top Threats and How to Defend Your Digital Assets",
+        "Category": "Security"
+    },
+    {
+        "id": 10,
+        "full_name": "Cloud-Native Development",
+        "IMAGE": "/Image/Blog 4.jpg",
+        "title": "How It’s Shaping the Future of Software Development",
+        "Category": "Development"
+    },
+    {
+        "id": 11,
+        "full_name": "The Digital Transformation Journey",
+        "IMAGE": "/Image/Blog 5.jpg",
+        "title": "How Businesses Can Stay Ahead in a Rapidly Evolving Market",
+        "Category": "Business"
     }
 ]

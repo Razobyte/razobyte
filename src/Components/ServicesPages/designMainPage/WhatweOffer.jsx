@@ -32,7 +32,6 @@ export default function WhatweOffer() {
                                     </h2>
                                 </div>
                             </div>
-
                             <div className="div3rd-box py-1  max-w-xs border-white border-2 flex items-center text-center justify-center rounded-s-full  mb-8">
                                 <h2 className='md:text-2xl text-sm font-bold text-white'>
                                     <span className='md:text-6xl font-bold text-2xl text-white'>W</span>ebsite Design</h2>

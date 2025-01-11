@@ -7,7 +7,8 @@ import { IoMdArrowDropleft, IoMdArrowDropright } from 'react-icons/io';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import blogsData from './BlogsData.json';
-import '../Blog/Blog.css'
+import '../Blog/Blog.css';
+
 const createSlug = (title) => {
   return title
     .toLowerCase()
@@ -16,16 +17,11 @@ const createSlug = (title) => {
     .replace(/-+/g, '-');     // Replace multiple hyphens with single hyphen
 };
 
-
 const Blog = ({ title }) => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
   const navigate = useNavigate();
-  const firstCardData = blogsData[0];
-  const secondCardData = blogsData[1];
-  const thirdCardData = blogsData[2];
-  const fourthCardData = blogsData[3];
-  const fifthCardData = blogsData[4];
+
   const handleCardClick = (blogTitle) => {
     const slug = createSlug(blogTitle);
     navigate(`/blogmain/${slug}`);
@@ -62,78 +58,22 @@ const Blog = ({ title }) => {
             },
           }}
         >
-          <SwiperSlide>
-            <Card className='cardmain-blog2 w-100' onClick={() => handleCardClick(firstCardData.title)}>
-              <img src={firstCardData.image} alt={firstCardData.title} className='card-imgblogs2 img-fluid' style={{ minHeight: '250px', maxHeight: '250px' }} />
-              <CardBody style={{ backgroundColor: '#3b7fbf' }}>
-                <CardTitle>
-                  <div className='allcardData'>
-                    <h3 className='text-lg font-medium  text-white'>{firstCardData.title}</h3>
-                    <p className='text-sm font-normal  text-white'>{firstCardData.content}</p>
-                    <Button className='btm mt-2'>Read more</Button>
-                  </div>
-                </CardTitle>
-              </CardBody>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card className='cardmain-blog2 w-100' onClick={() => handleCardClick(secondCardData.title)}>
-              <img src={secondCardData.image} variant='top' className='card-imgblogs2 img-fluid' style={{ minHeight: '250px', maxHeight: '250px' }} />
-              <CardBody style={{ backgroundColor: '#3b7fbf' }}>
-                <CardTitle>
-                  <div className='allcardData'>
-                    <h3 className='text-lg font-medium  text-white'>{secondCardData.title}</h3>
-                    <p className=' text-sm font-noraml text-white'>{secondCardData.content}</p>
-                    <Button className='btm mt-2'>Read more</Button>
-                  </div>
-                </CardTitle>
-              </CardBody>
-            </Card>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Card className='cardmain-blog2 w-100' onClick={() => handleCardClick(thirdCardData.title)}>
-              <img src={thirdCardData.image} variant='top' className='card-imgblogs2 img-fluid' style={{ minHeight: '250px', maxHeight: '250px' }} />
-              <CardBody style={{ backgroundColor: '#3b7fbf' }}>
-                <CardTitle>
-                  <div className='allcardData'>
-                    <h3 className='text-lg font-medium  text-white'>{thirdCardData.title}</h3>
-                    <p className=' text-sm font-normal text-white'>{thirdCardData.content}</p>
-                    <Button className='btm mt-2'>Read more</Button>
-                  </div>
-                </CardTitle>
-              </CardBody>
-            </Card>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Card className='cardmain-blog2 w-100' onClick={() => handleCardClick(fourthCardData.title)}>
-              <img src={fourthCardData.image} variant='top' className='card-imgblogs2 img-fluid' style={{ minHeight: '250px', maxHeight: '250px' }} />
-              <CardBody style={{ backgroundColor: '#3b7fbf' }}>
-                <CardTitle>
-                  <div className='allcardData'>
-                    <h3 className='text-lg font-medium  text-white'>{fourthCardData.title}</h3>
-                    <p className=' text-sm font-normal text-white'>{fourthCardData.content}</p>
-                    <Button className='btm mt-2'>Read more</Button>
-                  </div>
-                </CardTitle>
-              </CardBody>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card className='cardmain-blog2 w-100' onClick={() => handleCardClick(fifthCardData.title)}>
-              <img src={fifthCardData.image} variant='top' className='card-imgblogs2 img-fluid' style={{ minHeight: '250px', maxHeight: '250px' }} />
-              <CardBody style={{ backgroundColor: '#3b7fbf' }}>
-                <CardTitle>
-                  <div className='allcardData'>
-                    <h3 className='text-lg font-medium  text-white'>{fifthCardData.title}</h3>
-                    <p className=' text-sm font-normal text-white'>{fifthCardData.content}</p>
-                    <Button className='btm mt-2'>Read more</Button>
-                  </div>
-                </CardTitle>
-              </CardBody>
-            </Card>
-          </SwiperSlide>
+          {blogsData.map((blog) => (
+            <SwiperSlide key={blog.id}>
+              <Card className='w-full cardmain' onClick={() => handleCardClick(blog.title)}>
+                <img src={blog.image} alt={blog.title} className=' w-full h-44' />
+                <CardBody style={{ backgroundColor: '#3b7fbf' }}>
+                  <CardTitle>
+                    <div >
+                      <h3 className='text-lg font-medium text-white'>{blog.title}</h3>
+                      <p className='text-sm font-normal text-white'>{blog.content}</p>
+                      <Button className='btm mt-2'>Read more</Button>
+                    </div>
+                  </CardTitle>
+                </CardBody>
+              </Card>
+            </SwiperSlide>
+          ))}
         </Swiper>
         {/* Custom Navigation Buttons */}
         <div ref={navigationPrevRef} className="custom-swiper-button-prev">
@@ -146,4 +86,5 @@ const Blog = ({ title }) => {
     </Row>
   );
 };
+
 export default Blog;
