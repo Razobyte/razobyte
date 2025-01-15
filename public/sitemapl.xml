@@ -1,227 +1,193 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-		
+	
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://www.razobyte.com/</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.razobyte.com/services/design</loc>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/design/ui/ux-design</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.4</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/design/website-design</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/ecommerce-solutions/shopify-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/ecommerce-solutions/opencart-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/ecommerce-solutions/wocommerce-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/ecommerce-solutions/Magneto-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 
 <url>
 	<loc>https://www.razobyte.com/services/development/website-dvelopment</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/development/codeigniter-website-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/development/php-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/development/html-css-website</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/development/laravel-devlopment</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/development/reactjs-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/development/ecommerce-website-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://www.razobyte.com/services/digital-marketing</loc>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/digital-marketing/seo-search-engine-optimization</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://www.razobyte.com/services/digital-marketing/sem-seacrh-engine-marketing</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<loc>https://www.razobyte.com/services/digital-marketing/sem-search-engine-marketing</loc>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/digital-marketing/smo/social-media-optimization</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.4</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/digital-marketing/smm/social-media-marketing</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.4</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/digital-marketing/email-marketing</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/mobile-application/android-applications-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/mobile-application/ios-applications-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/maintenance-and-support/website-maintenance</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/maintenance-and-support/mobile-app-maintenance</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/maintenance-and-support/domain-and-hosting-maintenance</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 
 <url>
 	<loc>https://www.razobyte.com/about/about-us</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.razobyte.com/about/career</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>0.8</priority>
+	<loc>https://www.razobyte.com/careers</loc>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/about/our-clients</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/rubyrails</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/services/digital-marketing/performance-marketing</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.razobyte.com/portfolio</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/blogMain</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/contact</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/industry/healthcare-it-soultions</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/industry/it-consulting</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/industry/product-engineering</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/privacy-policy/</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/firstBlog</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/secondBlog</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/thirdBlog</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/fourthBlog</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/fifthBlog</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/services/</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.razobyte.com/sixthBlog</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 
 <url>
+	<loc>https://www.razobyte.com/contact</loc>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.razobyte.com/industry/healthcare-it-soultions</loc>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.razobyte.com/industry/it-consulting</loc>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.razobyte.com/industry/product-engineering</loc>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+
+<url>
 	<loc>https://www.razobyte.com/lp-one/web-design-development</loc>
-	<lastmod>2024-12-14T08:49:52+01:00</lastmod>
+	<lastmod>2025-01-13T07:52:58+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 </urlset>

@@ -5,6 +5,11 @@ import ThirdBlog from "./ThirdBlog/ThirdBlog";
 import FourthBlog from "./FouthBlog/FourthBlog";
 import FifthBlog from "./FifthBlog/FifthBlog";
 import SixthBlog from "./SixthBlog/SixthBlog";
+import SeventhBlog from "./seventhBlog";
+import EightBlog from "./eightBlog/index,";
+import NineBlog from "./nineBlog";
+import TenBlog from "./tenBlog";
+import ElevenBlog from "./elevenBlog";
 
 const BlogDetailRouter = () => {
     const { titles } = useParams();
@@ -16,7 +21,12 @@ const BlogDetailRouter = () => {
         "how-to-make-your-e-commerce-website": <ThirdBlog />,
         "figma-vs-adobe-xd": <FourthBlog />,
         "why-e-commerce-brands-are-failing": <FifthBlog />,
-        "how-social-media-is-changing": <SixthBlog />
+        "how-social-media-is-changing": <SixthBlog />,
+        "ai-powered-automation": <SeventhBlog/>,
+        "the-rise-of-edge-computing":<EightBlog/>,
+        "cybersecurity-in-2024" :<NineBlog/>,
+        "cloud-native-development":<TenBlog/>,
+        "the-digital-transformation-journey" :<ElevenBlog/>
     };
 
     if (!titles) {

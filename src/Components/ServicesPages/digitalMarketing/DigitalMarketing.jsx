@@ -241,14 +241,14 @@ export default function DigitalMarketing() {
                     }`}
                   onClick={() => handleToggle(index)}
                 >
-                  <div className="flex md:justify-between justify-evenly items-center w-full hover:bg-gray-100">
+                  <div className="flex md:justify-between justify-evenly items-center w-full ">
                     <span className={`font-medium text-sm md:text-lg ${expandedIndex === index ? 'text-black'
                       : 'text-[#3D3D3D] '}`}>
                       {faq.title}
                     </span>
                   </div>
                   <span
-                    className={`flex justify-center items-center text-3xl rounded-full h-8 w-8 transition-all duration-300 
+                    className={`flex justify-center items-center text-3xl rounded-full h-8 w-8 transition-all duration-300  hover:bg-gray-100
             ${expandedIndex === index
                         ? 'border-black text-black rotate-[180deg]'
                         : 'border-[#3b7fbf] text-black rotate-0'

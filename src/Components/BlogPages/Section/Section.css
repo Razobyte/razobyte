@@ -7,24 +7,20 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 .pagination-btn:hover {
     background-color: #3b7fbf;
     color: white;
 }
-
 .pagination-btn.active {
     background-color: #3b7fbf;
     color: white;
     border-color: #3b7fbf;
 }
-
 .pagination {
     margin-top: 20px;
     display: flex;
     gap: 8px;
 }
-
 .inputfield{
     box-shadow: none!important;  
     outline: none!important;  
@@ -55,15 +51,12 @@
 }
 .card-main-blog:hover{
     transform: translateY(-2px);
-   
 }
 .title-h4>h4{
     font-size: 20px;
     color: rgb(59, 127, 191);
     font-weight: 600;
-
 }
-
 .card-text-mainblog{
     font-size: 14px;
     font-weight: 500;
@@ -72,6 +65,5 @@
     .card-main-blog{
         max-height: 550px !important;
         min-height: 550px !important;
-    }
-    
+    }    
 }

@@ -6,6 +6,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import Blog from '../../../Blog/Blog2';
 import { useNavigate } from "react-router";
 import banner from '../../../../../public/Image/Blog1.jpg'
+import BlogSidebar from "../BlogSideNavbar";
 
 export default function SecondBlog({title,image}){
     const navigate=useNavigate()
@@ -104,71 +105,9 @@ export default function SecondBlog({title,image}){
   
       
        
-      <Col md={4} className=" py-5 coldiv">
-                <div className='d-flex justify-content-center align-items-center'>
-                <input
-                    type="text"
-                    placeholder='Search'
-                    className='inputfield text-center'
-              
-                />
-                <div className="bg-[#3b7fbf] p-[8px] ml-[-5px]">
-                <FaSearch  className='searchbar '  color="#ffff" size={25}/>
-                </div>
-                </div> 
-                <div className="blog-post-linkallmaindiv py-4 "> 
-                <h3 className="text-left  hed3">Recent Posts</h3>
-                <ul className="para">
-                <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-                color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/thirdBlog')}>How to Make Your E-commerce Website</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-                color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/fourthBlog')}>Figma v/s Adobe XD</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-               color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/fifthBlog')}>Why e-commerce Brands are failing.</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-                color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/sixthBlog')}>How Social Media is changing .</li></div>
-                
+      <Col md={4} className=" py-5">
+      <BlogSidebar/>
                
-              
-                </ul>
-        
-                </div>
-                <div className="blog-post-linkallmaindiv "> 
-                <h3 className="text-left  hed3">Related Posts</h3>
-                <ul className="para">
-                <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-                color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/thirdBlog')}>How to Make Your E-commerce Website</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-                color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/fourthBlog')}>Figma v/s Adobe XD</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-               color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/fifthBlog')}>Why e-commerce Brands are failing.</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-                color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/sixthBlog')}>How Social Media is changing .</li></div>
-                
-               
-              
-                </ul>
-                </div>
-                <div className="blog-post-linkallmaindiv"> 
-                <h3 className="text-left hed3">Other Post</h3>
-                <ul className="para">
-                <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-                color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/thirdBlog')}>How to Make Your E-commerce Website</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-                color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/fourthBlog')}>Figma v/s Adobe XD</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-               color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/fifthBlog')}>Why e-commerce Brands are failing.</li></div>
-                <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-                color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/sixthBlog')}>How Social Media is changing .</li></div>
-                
-               
-              
-                </ul>
-        
-                </div>
                 </Col>
      
 

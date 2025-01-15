@@ -8,6 +8,7 @@ import Banner from '../../../Banner/Banner';
 import BlogData from './../FirstBlogpage/FirstBlog.json'
 import { useNavigate } from 'react-router';
 import banner from '../../../../../public/Image/Blog1.jpg'
+import BlogSidebar from '../BlogSideNavbar';
 
 
 export default function FourthBlog({title,image}) {
@@ -174,75 +175,10 @@ export default function FourthBlog({title,image}) {
                       
                     </div>
                 </Col>
-
                ))}
-               
-              
-           
-               
-               <Col md={4} className=" py-5 coldiv">
-               <div className='d-flex justify-content-center align-items-center'>
-               <input
-                   type="text"
-                   placeholder='Search'
-                   className='inputfield text-center'
-             
-               />
-               <div className="bg-[#3b7fbf] p-[8px] ml-[-5px]">
-               <FaSearch  className='searchbar '  color="#ffff" size={25}/>
-               </div>
-               </div> 
-               <div className="blog-post-linkallmaindiv py-4 "> 
-               <h3 className="text-left  hed3">Recent Posts</h3>
-               <ul className="para">
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/secondBlog')}>Mobile Website v/s responsive website</li></div>
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-               <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-              color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/fifthBlog')}>Why e-commerce Brands are failing.</li></div>
-               <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-               color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/sixthBlog')}>How Social Media is changing .</li></div>
-               
-              
-             
-               </ul>
-       
-               </div>
-               <div className="blog-post-linkallmaindiv "> 
-               <h3 className="text-left  hed3">Related Posts</h3>
-             
-               <ul className="para">
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/secondBlog')}>Mobile Website v/s responsive website</li></div>
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-               <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-              color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/fifthBlog')}>Why e-commerce Brands are failing.</li></div>
-               <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-               color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/sixthBlog')}>How Social Media is changing .</li></div>
-               
-              
-             
-               </ul>
-               </div>
-               <div className="blog-post-linkallmaindiv"> 
-               <h3 className="text-left hed3">Other Post</h3>
-               <ul className="para">
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/secondBlog')}>Mobile Website v/s responsive website</li></div>
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-               <div className="d-flex align-items-center gap-2"><MdKeyboardDoubleArrowRight  color="#3b7fbf" size={25}/><li onClick={()=>navigate('/firstBlog')}>10 Tips to Improve Your Website SEO</li></div>
-               <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight 
-              color="#3b7fbf" size={25}/> <li onClick={()=>navigate('/fifthBlog')}>Why e-commerce Brands are failing.</li></div>
-               <div className="d-flex  align-items-center gap-2"><MdKeyboardDoubleArrowRight
-               color="#3b7fbf" size={25} /> <li onClick={()=>navigate('/sixthBlog')}>How Social Media is changing .</li></div>
-               
-              
-             
-               </ul>
-       
-               </div>
+               <Col md={4} className="">
+               <BlogSidebar/>
                </Col>
-              
-
             </Row>
             <Blog title="Feature Blogs"/>
             <Row style={{ backgroundColor: "#5e5e5e"}} className='justify-content-center align-items-center'>
