@@ -105,8 +105,10 @@ export default function SecondBlog({title,image}){
   
       
        
-      <Col md={4} className=" py-5">
-      <BlogSidebar/>
+      <Col md={4}>
+      <div className='sticky top-4'>
+                <BlogSidebar/>
+                </div>
                
                 </Col>
      

@@ -182,8 +182,10 @@ export default function FifthBlog({title,image}) {
            
                
                 
-               <Col md={4} className=''>
-               <BlogSidebar/>
+               <Col md={4}>
+               <div className='sticky top-4'>
+                <BlogSidebar/>
+                </div>
                 </Col>
               
 

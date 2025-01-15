@@ -131,8 +131,11 @@ export default function FirstBlog({title,image}) {
                     </div>
                 </Col>
                ))}
-                <Col md={4} className="">
+                <Col md={4}>
+                <div className='sticky top-4'>
                 <BlogSidebar/>
+                </div>
+               
                 </Col>
               
 

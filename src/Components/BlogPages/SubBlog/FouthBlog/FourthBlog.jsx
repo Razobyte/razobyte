@@ -176,8 +176,10 @@ export default function FourthBlog({title,image}) {
                     </div>
                 </Col>
                ))}
-               <Col md={4} className="">
-               <BlogSidebar/>
+               <Col md={4}>
+               <div className='sticky top-4'>
+                <BlogSidebar/>
+                </div>
                </Col>
             </Row>
             <Blog title="Feature Blogs"/>

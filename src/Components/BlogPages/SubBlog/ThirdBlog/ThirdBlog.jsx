@@ -154,12 +154,12 @@ export default function ThirdBlog({title,image}) {
            
                
                 
-               <Col md={4} className="">
-               <BlogSidebar/>
-               
+               <Col md={4}>
+               <div className='sticky top-4'>
+                <BlogSidebar/>
+                </div>
                </Col>
               
-
             </Row>
             <Blog title="Feature Blogs"/>
             {/* <Row style={{ backgroundColor: "#5e5e5e"}} className='justify-content-center align-items-center'>
